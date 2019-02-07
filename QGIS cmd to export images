@@ -1,1 +1,4 @@
 qgis --project myproject.qgs --snapshot image.png --width 1500 --height 1000 --extent xmin,ymin,xmax,ymax
+
+qgis --project Google Satellite.qgs --snapshot image.png --width 1500 --height 1000 --extent 8109284.3,2164982.0,8110150.7,2164480.4
+
