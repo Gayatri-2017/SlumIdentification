@@ -1,0 +1,1 @@
+qgis --project myproject.qgs --snapshot image.png --width 1500 --height 1000 --extent xmin,ymin,xmax,ymax
