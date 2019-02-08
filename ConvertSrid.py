@@ -30,14 +30,14 @@ print("For List 2")
 for i in range(len(list2)):
 	x1, y1 = list2[i]
 	x2,y2 = transform(inProj,outProj,x1,y1)
-	list2.append([x2, y2])
+	result2.append([x2, y2])
 print(result2)
 
 print("For List 3")
 for i in range(len(list3)):
 	x1, y1 = list3[i]
 	x2,y2 = transform(inProj,outProj,x1,y1)
-	list3.append([x2, y2])
+	result3.append([x2, y2])
 print(result3)
 
 '''Output
