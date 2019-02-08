@@ -1,4 +1,5 @@
-parse.py
+'''https://gis.stackexchange.com/questions/73768/converting-geojson-to-python-objects
+parse.py'''
 
 import json
 
