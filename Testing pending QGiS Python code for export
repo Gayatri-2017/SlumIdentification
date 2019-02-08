@@ -1,3 +1,5 @@
+https://gis.stackexchange.com/questions/220225/exporting-raster-to-rendered-image-using-standalone-script-in-qgis
+
 from qgis.core import *
  from qgis.utils import *
  from qgis.gui import *
