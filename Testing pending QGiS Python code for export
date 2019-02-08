@@ -1,0 +1,11 @@
+from qgis.core import *
+ from qgis.utils import *
+ from qgis.gui import *
+ from PyQt4.QtGui import *
+ from PyQt4.QtCore import *
+ QgsApplication.setPrefixPath("C:\OSGeo4W\apps\qgis", True)
+ qgs = QgsApplication([], True)
+ qgs.initQgis()
+ rasterpath = "E:/MODIS DATA/2016/15-10-2016/TIRUNELVELI.tif"
+ lyr = QgsRasterLayer(rasterpath, "TIRUNELVELI")
+ QgsMapLayerRegistry.instance().addMapLayer(lyr)
