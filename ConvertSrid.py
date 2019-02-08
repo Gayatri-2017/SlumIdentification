@@ -18,6 +18,10 @@ from pyproj import Proj, transform
 inProj = Proj(init='epsg:3857')
 outProj = Proj(init='epsg:4326')
 list1 = [[]]
+
 for i in range(len(list)):
 	x, y = list[i]
 	x2,y2 = transform(inProj,outProj,x1,y1)
+	list1[i] = x2, y2
+
+print(list1)
