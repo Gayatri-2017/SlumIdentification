@@ -1,0 +1,51 @@
+8109284.3,2164982.0
+
+8110150.7,2164480.4
+
+Scale:
+
+1:2,962
+
+qgis --project myproject.qgs --snapshot image.png --width 1500 --height 1000 --extent xmin,ymin,xmax,ymax
+
+C:\...>qgis --project Google Satellite.qgs --snapshot image.png --width 1500 --height 1000 --extent 8109284.3,2164982.0,8110150.7,2164480.4
+
+max - min
+xdiff = 866.4
+ydiff = -501.6
+
+x = 8109284.3
+y = 2164982.0
+for z in range(11):
+    print(x)
+    x = x + 86.64
+    print(y)
+    y = y - 50.16
+
+x = 8109284.3
+x1=x+86.64
+y = 2164982.0
+y1=y-50.16
+for z in range(11):
+    qgis --project Google Satellite.qgs --snapshot image.png --width 1500 --height 1000 --extent x,x1,y,y1
+    x = x1
+    x1 = x1 + 86.64
+    y=y1
+    y1 = y1 - 50.16
+
+
+
+
+from qgis.core import *
+from qgis.utils import *
+from qgis.gui import *
+from PyQt4.QtGui import *
+from PyQt4.QtCore import *
+QgsApplication.setPrefixPath("/home/user/Desktop/Test", True)
+qgs = QgsApplication([], True)
+qgs.initQgis()
+rasterpath = "/home/user/Desktop/Test/slum1.tif"
+lyr = QgsRasterLayer(rasterpath, "slumClusters.geojson")
+QgsMapLayerRegistry.instance().addMapLayer(lyr)
+
+
