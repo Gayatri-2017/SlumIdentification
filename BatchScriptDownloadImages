@@ -6,5 +6,27 @@ for x = 5, x < 10, x = x+1
     
 qgis --project GoogleSatellite.qgs --snapshot image.png --width 1500 --height 1000 --extent 8109284.3,2164982.0,8110150.7,2164480.4
 
+qgis --project GoogleSatellite.qgs --snapshot image.png --width 1500 --height 1000 --extent %xmin,%ymin,%xmax,%ymax
+%xmin = %xmin + 
 
+%Start the command line porgram from here
 
+%xdiff = 866.4
+%ydiff = -501.6
+
+%x = 8109284.3
+%y = 2164982.0
+
+%x1 = %x + 86.64
+%y1 = %y - 50.16
+
+%loopingvariable = 0
+
+:L1
+qgis --project Google Satellite.qgs --snapshot image.png --width 1500 --height 1000 --extent %x,%x1,%y,%y1
+%x = %x1
+%x1 = %x1 + 86.64
+%y = %y1
+%y1 = %y1 - 50.16
+%loopingvariable = %loopingvariable + 1
+if %loopingvariable leq 10 goto L1
