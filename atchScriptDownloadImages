@@ -1,0 +1,10 @@
+FOR %A IN (1 2 3) DO ECHO %A
+
+for x = 5, x < 10, x = x+1
+  for y = 10, y < 20, y += 2
+    echo x, y
+    
+qgis --project GoogleSatellite.qgs --snapshot image.png --width 1500 --height 1000 --extent 8109284.3,2164982.0,8110150.7,2164480.4
+
+
+
