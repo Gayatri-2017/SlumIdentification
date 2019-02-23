@@ -8,10 +8,10 @@
     <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="Ghatkopar20190209090522712" source="/home/user/Desktop/SlumIdentification/OQGiS Proj 1/Ghatkopar.png" name="Ghatkopar">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="memory_20190213185443241" source="Polygon?uuid=f31e4655-34dd-4fa5-a6f5-4e2be5e88caa&amp;crs=EPSG:3857&amp;field=polyno:string" name="Dissolved">
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Unchecked" id="memory_20190213185443241" source="memory?geometry=Polygon&amp;crs=EPSG:3857&amp;field=polyno:string(255,0)" name="Dissolved">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="slumClustersDesiredFormat20190208232328039" source="/home/user/Desktop/SlumIdentification/OQGiS Proj 1/slumClustersDesiredFormat.geojson" name="slumClustersDesiredFormatjson">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="slumClustersDesiredFormat20190208232328039" source="/home/user/Desktop/SlumIdentification/OQGiS Proj 1/slumClustersDesiredFormat.geojson" name="slumClustersDesiredFormatjson">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="try520190209085504975" source="/home/user/Desktop/SlumIdentification/OQGiS Proj 1/try5.png" name="try5">
@@ -29,25 +29,10 @@
     <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="EntireMumbaiImage20190209114629621" source="/home/user/Desktop/SlumIdentification/OQGiS Proj 1/EntireMumbaiImage.png" name="EntireMumbaiImage">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Satellite20190204204706686" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://www.google.cn/maps/vt?lyrs%3Ds@189%26gl%3Dcn%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Satellite">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="Google_Satellite20190204204706686" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://www.google.cn/maps/vt?lyrs%3Ds@189%26gl%3Dcn%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Satellite">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Google_Roads20190204180304444" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Dh%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D" name="Google Roads">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Sentinel_2_L1C___NDVI__WMS_______100___mostRecent__EPSG_3857_20190204183605746" source="IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=NDVI&amp;crs=EPSG:3857&amp;title=NDVI&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100" name="Sentinel-2 L1C - NDVI (WMS, -/-, 100%, mostRecent, EPSG:3857)">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Sentinel_2_L1C___Bathymetric__WMS_______100___mostRecent__EPSG_3857_20190204183553267" source="IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=BATHYMETRIC&amp;crs=EPSG:3857&amp;title=Bathymetric&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100" name="Sentinel-2 L1C - Bathymetric (WMS, -/-, 100%, mostRecent, EPSG:3857)">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Sentinel_2_L1C___False_color__urban___WMS_______100___mostRecent__EPSG_3857_20190204183539255" source="IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=FALSE_COLOR_URBAN&amp;crs=EPSG:3857&amp;title=False color (urban)&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100" name="Sentinel-2 L1C - False color (urban) (WMS, -/-, 100%, mostRecent, EPSG:3857)">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Sentinel_2_L1C___Natural_color__true_color___WMS_______100___mostRecent__EPSG_3857_20190204183524275" source="IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=TRUE_COLOR&amp;crs=EPSG:3857&amp;title=Natural color (true color)&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100" name="Sentinel-2 L1C - Natural color (true color) (WMS, -/-, 100%, mostRecent, EPSG:3857)">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Unchecked" id="Sentinel_2_L1C___Geology__WMS_______100___mostRecent__EPSG_3857_20190204183410473" source="IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=GEOLOGY&amp;crs=EPSG:3857&amp;title=Geology&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100" name="Sentinel-2 L1C - Geology (WMS, -/-, 100%, mostRecent, EPSG:3857)">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -55,10 +40,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>8107782.83724331296980381</xmin>
-      <ymin>2158335.61096787825226784</ymin>
-      <xmax>8110781.87642967142164707</xmax>
-      <ymax>2167471.52233308926224709</ymax>
+      <xmin>8107122.02040929533541203</xmin>
+      <ymin>2180217.7586850905790925</ymin>
+      <xmax>8107215.74038386903703213</xmax>
+      <ymax>2180503.2559152515605092</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -147,11 +132,6 @@
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>Google_Roads20190204180304444</item>
-      <item>Sentinel_2_L1C___Geology__WMS_______100___mostRecent__EPSG_3857_20190204183410473</item>
-      <item>Sentinel_2_L1C___Natural_color__true_color___WMS_______100___mostRecent__EPSG_3857_20190204183524275</item>
-      <item>Sentinel_2_L1C___False_color__urban___WMS_______100___mostRecent__EPSG_3857_20190204183539255</item>
-      <item>Sentinel_2_L1C___Bathymetric__WMS_______100___mostRecent__EPSG_3857_20190204183553267</item>
-      <item>Sentinel_2_L1C___NDVI__WMS_______100___mostRecent__EPSG_3857_20190204183605746</item>
       <item>Google_Satellite20190204204706686</item>
       <item>slumClustersDesiredFormat20190208230725789</item>
       <item>slumClustersDesiredFormat20190208232328039</item>
@@ -168,14 +148,14 @@
         <legendlayerfile isInOverview="0" layerid="Ghatkopar20190209090522712" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dissolved" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Dissolved" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="memory_20190213185443241" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="memory_20190213185443241" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="slumClustersDesiredFormatjson" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="slumClustersDesiredFormatjson" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="slumClustersDesiredFormat20190208232328039" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="slumClustersDesiredFormat20190208232328039" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="try5" showFeatureCount="0">
@@ -198,39 +178,14 @@
         <legendlayerfile isInOverview="0" layerid="EntireMumbaiImage20190209114629621" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Satellite" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Satellite" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Google_Satellite20190204204706686" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="Google_Satellite20190204204706686" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Google Roads" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="Google_Roads20190204180304444" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sentinel-2 L1C - NDVI (WMS, -/-, 100%, mostRecent, EPSG:3857)" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Sentinel_2_L1C___NDVI__WMS_______100___mostRecent__EPSG_3857_20190204183605746" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sentinel-2 L1C - Bathymetric (WMS, -/-, 100%, mostRecent, EPSG:3857)" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Sentinel_2_L1C___Bathymetric__WMS_______100___mostRecent__EPSG_3857_20190204183553267" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sentinel-2 L1C - False color (urban) (WMS, -/-, 100%, mostRecent, EPSG:3857)" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Sentinel_2_L1C___False_color__urban___WMS_______100___mostRecent__EPSG_3857_20190204183539255" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sentinel-2 L1C - Natural color (true color) (WMS, -/-, 100%, mostRecent, EPSG:3857)" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Sentinel_2_L1C___Natural_color__true_color___WMS_______100___mostRecent__EPSG_3857_20190204183524275" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sentinel-2 L1C - Geology (WMS, -/-, 100%, mostRecent, EPSG:3857)" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="Sentinel_2_L1C___Geology__WMS_______100___mostRecent__EPSG_3857_20190204183410473" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -443,231 +398,6 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278900176286697</xmin>
-        <ymin>-20037508.34278900176286697</ymin>
-        <xmax>20037508.34278900176286697</xmax>
-        <ymax>20037508.34278900176286697</ymax>
-      </extent>
-      <id>Sentinel_2_L1C___Bathymetric__WMS_______100___mostRecent__EPSG_3857_20190204183553267</id>
-      <datasource>IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=BATHYMETRIC&amp;crs=EPSG:3857&amp;title=Bathymetric&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Sentinel-2 L1C - Bathymetric (WMS, -/-, 100%, mostRecent, EPSG:3857)</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Html"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278900176286697</xmin>
-        <ymin>-20037508.34278900176286697</ymin>
-        <xmax>20037508.34278900176286697</xmax>
-        <ymax>20037508.34278900176286697</ymax>
-      </extent>
-      <id>Sentinel_2_L1C___False_color__urban___WMS_______100___mostRecent__EPSG_3857_20190204183539255</id>
-      <datasource>IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=FALSE_COLOR_URBAN&amp;crs=EPSG:3857&amp;title=False color (urban)&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Sentinel-2 L1C - False color (urban) (WMS, -/-, 100%, mostRecent, EPSG:3857)</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Html"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278900176286697</xmin>
-        <ymin>-20037508.34278900176286697</ymin>
-        <xmax>20037508.34278900176286697</xmax>
-        <ymax>20037508.34278900176286697</ymax>
-      </extent>
-      <id>Sentinel_2_L1C___Geology__WMS_______100___mostRecent__EPSG_3857_20190204183410473</id>
-      <datasource>IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=GEOLOGY&amp;crs=EPSG:3857&amp;title=Geology&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Sentinel-2 L1C - Geology (WMS, -/-, 100%, mostRecent, EPSG:3857)</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Html"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278900176286697</xmin>
-        <ymin>-20037508.34278900176286697</ymin>
-        <xmax>20037508.34278900176286697</xmax>
-        <ymax>20037508.34278900176286697</ymax>
-      </extent>
-      <id>Sentinel_2_L1C___NDVI__WMS_______100___mostRecent__EPSG_3857_20190204183605746</id>
-      <datasource>IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=NDVI&amp;crs=EPSG:3857&amp;title=NDVI&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Sentinel-2 L1C - NDVI (WMS, -/-, 100%, mostRecent, EPSG:3857)</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Html"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-20037508.34278900176286697</xmin>
-        <ymin>-20037508.34278900176286697</ymin>
-        <xmax>20037508.34278900176286697</xmax>
-        <ymax>20037508.34278900176286697</ymax>
-      </extent>
-      <id>Sentinel_2_L1C___Natural_color__true_color___WMS_______100___mostRecent__EPSG_3857_20190204183524275</id>
-      <datasource>IgnoreGetFeatureInfoUrl=1&amp;styles=&amp;showLogo=false&amp;version=1.3.0&amp;contextualWMSLegend=0&amp;service=WMS&amp;format=image/png&amp;request=GetMap&amp;IgnoreGetMapUrl=1&amp;transparent=true&amp;layers=TRUE_COLOR&amp;crs=EPSG:3857&amp;title=Natural color (true color)&amp;priority=mostRecent&amp;maxcc=100&amp;time=&amp;url=https%3A%2F%2Fservices.sentinel-hub.com%2Fogc%2Fwms%2F3d2a9c11-1c51-445f-a859-ebac70072c57%3FshowLogo%3Dfalse%26TIME%3D%26priority%3DmostRecent%26maxcc%3D100</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Sentinel-2 L1C - Natural color (true color) (WMS, -/-, 100%, mostRecent, EPSG:3857)</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Html"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>8108133.89785963296890259</xmin>
@@ -753,20 +483,20 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="polyno" index="0" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="111">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
