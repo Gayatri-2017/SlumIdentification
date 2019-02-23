@@ -1,32 +1,39 @@
-set /A x = 8109284
-set /A y = 2164982
+x=8109284.3
+y=2164982
 
-set /A xdiff = 87
-set /A ydiff = -50
+xdiff=87
+ydiff=-50
 
-set /A x1 = %x% + %xdiff%
-set /A y1=%y-%ydiff
+x1=`expr x + xdiff`
+x1=$(awk 'BEGIN{print x + xdiff}')
 
+x1=`scale=4;$x+$xdiff`|
+echo try
+x1=$(echo x1 + xdiff | bc -l)
+echo trydone
+echo x1\=
+echo $x1
+echo xdone
+y1='expr $y + $ydiff'
 
-set /A loopingvariable=0
+loopingvariable=0
 
 :L1
-echo. %x%
-echo. %x1%
-echo. %y%
-echo. %y1%
+echo %x
+echo %x1
+echo %y
+echo %y1
 echo NewLine
 
-set x=%x1%
-set x1=%x1%+87
-set y=%y1%
-set y1=%y1%-50
+x=%x1
+x1=%x1+87
+y=%y1
+y1=%y1-50
 
-echo. %x%
-echo. %x1%
-echo. %y%
-echo. %y1%
+echo %x
+echo %x1
+echo %y
+echo %y1
 echo NewLine
 
-set loopingvariable=%loopingvariable%+1
-rem if %loopingvariable% leq 10 goto L1
+loopingvariable=%loopingvariable%+1
