@@ -1,0 +1,22 @@
+<!--https://stackoverflow.com/questions/17884292/need-some-help-generating-a-screenshot-from-google-maps-api-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="libraries/html2canvas.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript" src="index.js"></script>
+
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+<h3>My Google Maps Demo</h3>
+<a href="javascript:genScreenshot()"> Get Screenshot</a>
+<a id="test"></a>
+<!--The div element for the map -->
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+</script>
+</html>
