@@ -29,3 +29,4 @@ for z1 in range(1,77):
 
 #total images = 77 * 24 = 1848
 #total time = 1848 * 20 = 36960 sec = 616 min = 10.3 hrs
+# time for 24 images = 24 * 20 = 480 sec = 8 min
