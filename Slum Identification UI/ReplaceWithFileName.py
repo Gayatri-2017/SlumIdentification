@@ -1,0 +1,2 @@
+def ReplaceWithFunctionName():
+    print("Hello")
